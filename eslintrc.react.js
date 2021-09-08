@@ -3,7 +3,7 @@ module.exports = {
     es2020: true,
     browser: true,
     node: true,
-    jest: true,
+    mocha: true,
   },
   globals: {
     Atomics: "readonly",
@@ -14,8 +14,7 @@ module.exports = {
     "plugin:@typescript-eslint/recommended",
     "plugin:react/recommended",
     "airbnb-typescript",
-    "plugin:jest/recommended",
-    "plugin:jest/style",
+    "plugin:mocha/recommended",
     "plugin:prettier/recommended",
     "prettier",
   ],
