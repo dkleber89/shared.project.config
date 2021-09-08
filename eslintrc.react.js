@@ -13,11 +13,18 @@ module.exports = {
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended",
     "plugin:react/recommended",
+    "plugin:react/jsx-runtime",
+    "airbnb",
     "airbnb-typescript",
     "plugin:mocha/recommended",
     "plugin:prettier/recommended",
     "prettier",
   ],
+  settings: {
+    react: {
+      version: "detect",
+    },
+  },
   parser: "@typescript-eslint/parser",
   parserOptions: {
     project: "./tsconfig.eslint.json",
